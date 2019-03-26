@@ -1,6 +1,16 @@
 
 ## 学习资源
-[Python教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)  
+[Welcome to Python][1]  
+[3.7.3 Documentation][2]  
+[Python教程 - 廖雪峰的官方网站][3]  
+[Python Tutorial: Learn Python For Free | Codecademy][4]  
+[Python Tutorial - W3Schools][5]  
+[Learn Python - Free Interactive Python Tutorial][6]  
+
+### video
+[学习Python - 初学者全程][7]  
+[Python Tutorial for Beginners | Full Python Programming Course [2019]][8]  
+[零基础入门学习python - 小甲鱼][9]  
 
 > The Zen of Python, by Tim Peters
 
@@ -23,3 +33,13 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.  
 If the implementation is easy to explain, it may be a good idea.  
 Namespaces are one honking great idea -- let's do more of those!
+
+[1]: https://www.python.org/
+[2]: https://docs.python.org/3/
+[3]: https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000
+[4]: https://www.codecademy.com/learn/learn-python
+[5]: https://www.w3schools.com/python/
+[6]: https://www.learnpython.org/
+[7]: https://www.youtube.com/watch?v=rfscVS0vtbw
+[8]: https://www.youtube.com/watch?v=_uQrJ0TkZlc
+[9]: https://www.youtube.com/watch?v=jCI4oDkDg00&list=PLLUsl4SYy5wFtX-VCW5gft6SgLbVOH2Y5
