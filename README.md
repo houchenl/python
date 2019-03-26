@@ -12,8 +12,7 @@
 [Python Tutorial for Beginners | Full Python Programming Course [2019]][8]  
 [零基础入门学习python - 小甲鱼][9]  
 
-> The Zen of Python, by Tim Peters
-
+> The Zen of Python, by Tim Peters  
 >Beautiful is better than ugly.  
 Explicit is better than implicit.  
 Simple is better than complex.  
