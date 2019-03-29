@@ -14,6 +14,12 @@
 [Python Tutorial for Beginners | Full Python Programming Course [2019]][8]  
 [零基础入门学习python - 小甲鱼][9]  
 
+## 编码规范
+1. 缩进使用4个空格；如果混合使用制表符，确认编辑器自动把制表符转换为4个空格；  
+2. 代码一行最多80个字符；  
+3. 注释的行长不超过72个字符；  
+4. 使用空行将代码不同部分分开；  
+
 ## The Zen of Python
 >Beautiful is better than ugly.  
 Explicit is better than implicit.  
