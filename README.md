@@ -1,5 +1,7 @@
 
 ## 学习资源
+
+### 文档
 [Welcome to Python][1]  
 [3.7.3 Documentation][2]  
 [Python教程 - 廖雪峰的官方网站][3]  
@@ -12,7 +14,7 @@
 [Python Tutorial for Beginners | Full Python Programming Course [2019]][8]  
 [零基础入门学习python - 小甲鱼][9]  
 
-> The Zen of Python, by Tim Peters  
+## The Zen of Python
 >Beautiful is better than ugly.  
 Explicit is better than implicit.  
 Simple is better than complex.  
