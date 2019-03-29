@@ -13,9 +13,13 @@ bicycles = ['trek', 3, 5.6, True, ['one', 'two'], ('three', 4), {'name':'john', 
 bicycles = ['trek', 'cannondale', 'redline']
 # print(bicycles[0])    # trek, first item
 # print(bicycles[-1])    # redline, -1 means last item
+# 返回列表的部分元素称为切片，切片在右边界index的前一个元素停下，不包含右边界index
 # print(bicycles[1:3])    # ['cannondale', 'redline'], 如果右index越界，会返回到最后一个item，但不会报错
 # print(bicycles[:2])    # ['trek', 'cannondale'], 如果不指定左边界，那么左边界默认使用第1个元素
 # print(bicycles[1:])    # ['cannondale', 'redline']，如果不指定右边界，那么右边界默认到最后一个元素
+# print(bicycles[-2:])    # ['cannondale', 'redline']，返回列表最后两个元素
+copy = bicycles[:]    # 切片中:不指定左右边界，可用来复制列表
+# print(copy)    # ['trek', 'cannondale', 'redline']
 
 # append (tail)
 bicycles.append('ducati')
@@ -72,9 +76,4 @@ cars.reverse()
 
 length = len(cars)
 # print(length)    # 4
-
-# 遍历
-magicians = ['alice', 'david', 'carolina']
-for magician in magicians:
-    print(magician)
 
