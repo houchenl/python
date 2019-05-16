@@ -49,6 +49,8 @@ sudo rm -rf /Application/Python 3.6
 cd /usr/local/bin/
 ls -l /usr/local/bin
 rm Python3.x相关的文件和链接
+rm pydoc*
+rm pyenv*
 ```
 
 > 删除python的环境路径  

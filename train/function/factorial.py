@@ -7,11 +7,11 @@ def foo1(n):
         result *= num
     return result
 
-print(foo1(-1))
-print(foo1(0))
-print(foo1(1))
-print(foo1(2))
-print(foo1(3))
+print(foo1(-1))  # 1 wrong
+print(foo1(0))   # 1 wrong
+print(foo1(1))   # 1
+print(foo1(2))   # 2
+print(foo1(3))   # 6
 
 
 # 阶乘2
@@ -22,9 +22,9 @@ def foo2(n):
     else:
         return n
 
-print(foo2(-1))
-print(foo2(0))
-print(foo2(1))
-print(foo2(2))
-print(foo2(3))
+print(foo2(-1))  # -1
+print(foo2(0))   # 0
+print(foo2(1))   # 1
+print(foo2(2))   # 2
+print(foo2(3))   # 6
 

@@ -1,8 +1,10 @@
 
 # dict表示字典，使用{}表示，存储key:value对
-
-# 不可变量可以用为key，包括字符串，整数，小数，元组。可变量不可作为key，包括列表，字典
+# key: 不可变量可以用为key，包括字符串，整数，小数，元组。可变量不可作为key，包括列表，字典
 # python使用key的hash作为存储地址，因为可变量的hash值会变化，导致找不到原存储值，所以要求Key是不可变量
+# value: 任何python数据
+
+
 a = {
     'name': 'houchenl',
     22: 'age',
@@ -66,5 +68,14 @@ for item in d.items():
 for key, value in d.items():
     print('foreach 4: key is %s, value is %s' % (key, value))
 
+# 遍历五，对返回的无序键列表进行排序
+for name in sorted(d.keys()):
+    print(name)
 
+# 添加键值对
+alien = {'color': 'green'}
+alien['x_position'] = 0
+alien['y_position'] = 25
 
+# 删除键值对: 使用del语句，指定字典名和要删除的键
+del alien['color']
